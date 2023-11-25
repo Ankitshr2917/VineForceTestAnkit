@@ -1,0 +1,23 @@
+﻿
+<div class="row">
+    <div class="col-8">
+        <h3>State List</h3>
+    </div>
+    <div class="col-4">
+        <a asp-action="Upsert" class="btn btn-info">AddState</a>
+    </div>
+</div>
+
+<table id="tbldata" class="table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th class="bg-light">State</th>
+            <th class="bg-light">Country</th>
+            <th class="bg-light">Actions</th>
+        </tr>
+    </thead>
+</table>
+
+@section Scripts{
+    <script src="~/js/statelist.js"></script>
+}
